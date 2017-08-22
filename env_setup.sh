@@ -70,9 +70,9 @@ if [ "$TARGET" = "N920G" ] ; then
 	export KERNEL_CONFIG="exynos7420-noblelte_mea_jv_defconfig";
 fi;
 
-# G925T
-if [ "$TARGET" = "G925T" ] ; then
-	export KERNEL_CONFIG="custom-zeroltetmo";
+# N920T
+if [ "$TARGET" = "N920T" ] ; then
+	export KERNEL_CONFIG="exynos7420-noblelte_tmo_defconfig";
 fi;
 
 # build script
